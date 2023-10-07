@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Global Gather",
+        "image": " ",
+        "price": 3000.00,
+        "short_description": "To arrange a traditional or cultural gather globally, you can choose this event."
+    },
+    {
+        "id": 2,
+        "name": "Artisan and Craft Vendors",
+        "image": " ",
+        "price": 500.00,
+        "short_description": "Facilitating the presence of local artisans and craft vendors who sell culturally relevant products can add an authentic and unique dimension to cultural events."
+    },
+    {
+        "id": 3,
+        "name": "Multilingual Hosting and Interpretation",
+        "image": " ",
+        "price": 500.00,
+        "short_description": "Offering services for multilingual hosts, interpreters, and translation services can help bridge language barriers and enhance the accessibility of the event for a diverse audience."
+    },
+    {
+        "id": 4,
+        "name": "Cultural Dance Show",
+        "image": "cultural_dance_show.jpg",
+        "price": 250.00,
+        "short_description": "A mesmerizing dance performance showcasing global traditions."
+    },
+    {
+        "id": 5,
+        "name": "Venue Decoration and Theming",
+        "image": "",
+        "price": 250.00,
+        "short_description": " Event organizers can offer services to transform event venues to reflect the cultural theme of the event, creating a visually immersive experience for attendees."
+    },
+    {
+        "id": 6,
+        "name": "Catering and Cuisine",
+        "image": "",
+        "price": 250.00,
+        "short_description": "Providing authentic cultural cuisine or catering services that offer a taste of the event's cultural focus can be a significant part of cultural events."
+    }
+]

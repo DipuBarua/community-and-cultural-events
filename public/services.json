@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Cultural Festivals",
+        "image": "",
+        "price": 300.00,
+        "short_description": "Access to a day of cultural festivities and performances."
+    },
+    {
+        "id": 2,
+        "name": "Parades",
+        "image": " ",
+        "price": 450.00,
+        "short_description": "Learn traditional parades. It's a good side to begin traditional festivals."
+    },
+    {
+        "id": 3,
+        "name": "Carnivals and Fairs",
+        "image": "",
+        "price": 500.00,
+        "short_description": "Savor diverse cuisines from around the world."
+    },
+    {
+        "id": 4,
+        "name": "Cultural Celebrations",
+        "image": "cultural_dance_show.jpg",
+        "price": 250.00,
+        "short_description": "A mesmerizing dance performance showcasing global traditions."
+    },
+    {
+        "id": 5,
+        "name": "Fundraisers",
+        "image": " ",
+        "price": 150.00,
+        "short_description": " Fundraisers"
+    },
+    {
+        "id": 6,
+        "name": "Charity Galas",
+        "image": " ",
+        "price": 150.00,
+        "short_description": "Charity Galas"
+    }
+]
