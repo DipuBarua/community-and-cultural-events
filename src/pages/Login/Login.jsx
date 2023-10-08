@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../Shared/Navbar/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../contextProvider/AuthProvider";
@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Login = () => {
     const { signIn } = useContext(AuthContext);
     const navigate = useNavigate();
+    const location = useLocation();
     const [errorMessage, setErrorMessage] = useState(null);
 
     const handleLogin = e => {
@@ -26,7 +27,7 @@ const Login = () => {
             .then(result => {
                 console.log('login success', result.user);
                 notify();
-                // navigate('/about')
+                navigate((location?.state) ? location.state : '/')
             })
             .catch(error => {
                 console.log(error.message);
