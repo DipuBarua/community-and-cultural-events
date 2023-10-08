@@ -2,43 +2,43 @@
     {
         "id": 1,
         "name": "Cultural Festivals",
-        "image": "",
+        "image": "https://i.ibb.co/XS5PYFw/Cultural-Festivals.jpg",
         "price": 300.00,
-        "short_description": "Access to a day of cultural festivities and performances."
+        "short_description": "Cultural festivals are vibrant celebrations that showcase the rich heritage, traditions, and artistic expressions of a particular culture or a diverse range of cultures. These events often feature a variety of activities, including traditional performances, music, dance, art exhibitions, culinary delights, and educational exhibits. Cultural festivals provide an opportunity for people to immerse themselves in the customs and values of different communities, fostering cross-cultural understanding and appreciation. They are not only a source of entertainment but also serve as a platform for promoting diversity, preserving cultural identities, and building bridges between various communities within a society. Cultural festivals are a testament to the beauty of cultural diversity and the importance of cultural exchange in our globalized world."
     },
     {
         "id": 2,
         "name": "Parades",
-        "image": " ",
+        "image": "https://i.ibb.co/ThKbQKN/Parades.jpg",
         "price": 450.00,
-        "short_description": "Learn traditional parades. It's a good side to begin traditional festivals."
+        "short_description": "Parades Event Services specialize in the planning, organization, and execution of parades, which are festive processions often held to celebrate special occasions, holidays, or community events. These services assist in route planning, securing permits, coordinating floats, bands, and performers, and ensuring the smooth flow of the parade. They play a crucial role in creating vibrant and memorable parades that bring communities together and showcase local culture, art, and creativity to the delight of spectators."
     },
     {
         "id": 3,
         "name": "Carnivals and Fairs",
-        "image": "",
+        "image": "https://i.ibb.co/dG5Q053/Carnivals.jpg",
         "price": 500.00,
-        "short_description": "Savor diverse cuisines from around the world."
+        "short_description": "Carnivals and Fairs are vibrant, community-centered events filled with thrilling rides, games, entertainment, and delectable food. These festive gatherings offer fun and excitement for people of all ages, providing an opportunity to enjoy unique experiences, from Ferris wheel rides to cotton candy treats. Carnivals and Fairs are a cherished tradition that fosters community spirit and creates lasting memories for attendees."
     },
     {
         "id": 4,
         "name": "Cultural Celebrations",
-        "image": "cultural_dance_show.jpg",
+        "image": "https://i.ibb.co/rFB5np9/Cultural-Celebrations.jpg",
         "price": 250.00,
-        "short_description": "A mesmerizing dance performance showcasing global traditions."
+        "short_description": "Cultural Celebrations Event Services specialize in planning and organizing events that honor and celebrate diverse cultures. These services provide expertise in cultural event design, entertainment, cuisine, and decor, ensuring that each celebration is a vibrant and authentic representation of the culture it highlights. Cultural Celebrations Event Services create memorable experiences that promote cultural understanding and appreciation."
     },
     {
         "id": 5,
         "name": "Fundraisers",
-        "image": " ",
+        "image": "https://i.ibb.co/q0HncQd/Fundraisers.jpg",
         "price": 150.00,
-        "short_description": " Fundraisers"
+        "short_description": " Fundraising event services are specialized providers that assist nonprofit organizations, charities, and causes in planning and executing successful fundraising events. These services offer expertise in event planning, logistics, marketing, and fundraising strategies to maximize donations and support for the cause. They play a crucial role in creating memorable and impactful events that help organizations raise funds to support their missions and initiatives."
     },
     {
         "id": 6,
         "name": "Charity Galas",
-        "image": " ",
+        "image": "https://i.ibb.co/rbpTz57/Charity2.jpg",
         "price": 150.00,
-        "short_description": "Charity Galas"
+        "short_description": "Charity event services start by working closely with the client to understand their goals, objectives, and the cause they are supporting. They help create a comprehensive event plan that outlines the event's theme, goals, target audience, and budget. This includes selecting the event date, venue, and creating a timeline."
     }
 ]

@@ -11,7 +11,13 @@ const Footer = () => {
                 <a className="link link-hover">Charity Galas</a>
                 <a className="link link-hover">Carnivals and Fairs</a>
                 <a className="link link-hover">Cultural Celebrations</a>
+            </nav>
+            <nav>
+                <header className="footer-title">Upcoming Services</header>
                 <a className="link link-hover">Artisan and Craft Vendors</a>
+                <a className="link link-hover">Cultural Dance Show</a>
+                <a className="link link-hover">Catering and Cuisine</a>
+                <a className="link link-hover">Venue Decoration and Theming</a>
                 <a className="link link-hover">Global Gather Services</a>
                 <a className="link link-hover">Multilingual Hosting and Interpretation</a>
             </nav>
@@ -25,9 +31,9 @@ const Footer = () => {
             <nav>
                 <header className="footer-title">Social</header>
                 <div className="grid grid-flow-col gap-4">
-                    <a href=""><FaFacebookF className=' text-xl'></FaFacebookF></a>
-                    <a href=""><FaYoutube className=' text-xl'></FaYoutube></a>
-                    <a href=""><FaTwitter className=' text-xl'></FaTwitter></a>
+                    <a href=""><FaFacebookF className=' text-2xl text-blue-700 '></FaFacebookF></a>
+                    <a href=""><FaYoutube className=' text-2xl text-red-600 '></FaYoutube></a>
+                    <a href=""><FaTwitter className=' text-2xl text-blue-500 '></FaTwitter></a>
 
                 </div>
             </nav>
