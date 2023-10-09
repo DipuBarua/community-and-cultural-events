@@ -1,6 +1,6 @@
 # Project: community-and-cultural-events-a9b8
 
-- Live Link: 
+- Live Link: https://community-and-cultural-events.web.app 
 
 # Features
 - It is a events based web developing project. In the home page of this website, there have navbar with active button, banner, sidebar, services card, client say section, footer.

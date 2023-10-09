@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const UpcomingService = ({ comingService }) => {
-    const { name, image, price, short_description } = comingService;
+    const { name, image, short_description } = comingService;
 
     return (
         <div className="card bg-base-100 shadow-xl image-full mx-4">
