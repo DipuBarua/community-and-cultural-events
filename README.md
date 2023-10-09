@@ -1,25 +1,12 @@
-# community-and-cultural-events-a9b8
-Live Link: 
+# Project: community-and-cultural-events-a9b8
+
+- Live Link: 
 
 # Features
-- 
-- 
-- 
-- 
-- 
-
-http://themes.templatescoder.com/danveer/demo/1-1/?storefront=envato-elements 
-https://html5up.net/massively 
-
-
-event services:
-- Festivals, Parades, Carnivals and Fairs, Cultural Celebrations, Fundraisers, Charity Galas,
-- CulturalFusion, CommunityFest Services, GlobalGather Services, Multilingual Hosting and Interpretation, Artisan and Craft Vendors,Cultural Dance Show, Catering and Cuisine, Venue Decoration and Theming
-
-navbar: with activ btn
-banner: banner or slide
-right side : empty 
-left side: Upcoming Events
-middle section: services [name, image, price, short description and a specific button]
-bottom section: client setisfaction
-footer: any type
+- It is a events based web developing project. In the home page of this website, there have navbar with active button, banner, sidebar, services card, client say section, footer.
+- There has also register,login page. user can create account and use this site by login. Besides, both page has toggle button to switch another easily. 
+- Only verified user can see the details page of the events service cards.
+- We used firebase authentication to create and verify user.
+- User can also create account using Google account instead of email, password.
+- we have used fake JSON database temporarily. and image links created using imgbb site.
+- Here we have used private routes so that, some special buttons(deshboard, applied) and card's details page can be used by only logged in user.

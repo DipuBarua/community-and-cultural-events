@@ -8,11 +8,11 @@ import 'react-toastify/dist/ReactToastify.css';
 const Register = () => {
     const { signUp } = useContext(AuthContext);
     const [registerError, setRegisterError] = useState(null);
-
+    // console.log(user);
     const handleRegister = e => {
         e.preventDefault();
         const form = new FormData(e.currentTarget);
-        console.log(form);
+        // console.log(form);
 
         const name = form.get('name');
         const email = form.get('email');
@@ -59,7 +59,7 @@ const Register = () => {
                     <p className=" text-5xl font-bold">Please Register</p>
                     <div className="card flex-shrink-0 w-full bg-blue-300 shadow-2xl ">
                         <form onSubmit={handleRegister} className="card-body">
-                        <p className=" text-center text-red-600">{registerError}</p>
+                            <p className=" text-center text-red-600">{registerError}</p>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Name</span>

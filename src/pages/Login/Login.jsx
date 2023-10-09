@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
-    const { signIn } = useContext(AuthContext);
+    const { signIn, signInWithGoogle } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
     const [errorMessage, setErrorMessage] = useState(null);
@@ -26,14 +26,27 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 console.log('login success', result.user);
-                notify();
-                navigate((location?.state) ? location.state : '/')
+                navigate((location?.state) ? location.state : notify());
             })
             .catch(error => {
                 console.log(error.message);
                 setErrorMessage(error.message);
             })
     }
+
+    //signIn With Google
+    const handleGoogleSignIn = () => {
+        signInWithGoogle()
+            .then(result => {
+                navigate((location?.state) ? location.state : notify());
+                console.log("google login successful", result.user);
+            })
+            .catch(error => {
+                console.log('error:', error.message);
+            })
+    }
+
+    //toast
     const notify = () => {
         toast("LogIn Successful");
     }
@@ -67,7 +80,14 @@ const Login = () => {
                                 <button className="btn btn-primary">Login</button>
                             </div>
                             <div>
-                                <p>Have not account? please <Link className=" btn-link" to={'/register'}>Register</Link></p>
+                                <p className=" border border-black p-2 ml-1">Do not have an account? please<Link className=" btn-link ml-1" to={'/register'}>Sign up</Link></p>
+
+                                <p className=" text-center">OR</p>
+
+                                <p className=" border border-black p-2 ml-1">Continue with
+                                    <button className=" btn-link ml-1" onClick={handleGoogleSignIn}>Google</button>
+                                </p>
+
                             </div>
                         </form>
                     </div>

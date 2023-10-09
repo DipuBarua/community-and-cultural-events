@@ -13,8 +13,8 @@ const LeftSideNav = () => {
 
     return (
         <div className="">
-            <h1 className=" text-2xl font-semibold mb-5">{comingServices.length} Upcoming Services</h1>
-            <div className=" flex flex-col gap-5">
+            <h1 className=" text-4xl font-bold mb-5 text-center">Upcoming Services</h1>
+            <div className=" flex flex-col gap-5 mb-2">
                 {
                     comingServices.map(comingService => <UpcomingService key={comingService.id} comingService={comingService}></UpcomingService>)
                 }

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const ServiceCard = ({ service }) => {
     const { id, name, image, price, short_description } = service;
@@ -10,11 +11,11 @@ const ServiceCard = ({ service }) => {
                 <h2 className="card-title">{name}</h2>
                 {
                     (short_description.length > 200) ?
-                        <p>{short_description.slice(0, 200)} read more...</p>
+                        <p>{short_description.slice(0, 200)} <span className=" text-gray-500">...click Details</span></p>
                         :
                         <p>{short_description}</p>
                 }
-                <div className="card-actions flex flex-row-reverse justify-between items-center  bg-gradient-to-l from-blue-300 rounded-lg">
+                <div className="card-actions flex flex-row-reverse justify-between items-center  ">
                     <Link to={`/eventDetails/${id}`}>
                         <button className="btn btn-primary">Details</button>
                     </Link>
@@ -25,4 +26,7 @@ const ServiceCard = ({ service }) => {
     );
 };
 
+ServiceCard.propTypes = {
+    service: PropTypes.object,
+}
 export default ServiceCard;
